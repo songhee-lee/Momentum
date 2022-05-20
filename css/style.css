@@ -1,0 +1,86 @@
+body {
+    background: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0;
+    z-index: -1;
+    opacity: 80%;
+}
+
+
+#clock {
+    font-size: 120px;
+    padding-top: 8%;
+    margin-bottom: 10px;
+}
+
+#login-form input[type=text]{
+    color: #000;
+}
+
+#greeting {
+    font-size: 36px;
+}
+
+#quote {
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#todo-form input[type="text"] {
+    border: 0;
+    font-size: 20px;
+    width: 40%;
+    opacity: 0.5;
+    padding: 8px;
+    border-radius: 5px;
+    color: #000000;
+    margin-top: 50px;
+    box-shadow: #000 12px 6px 25px;
+}
+
+input::placeholder {
+    color: #333;
+}
+
+#todo-list {
+    display: inline-block;
+    text-align: left;
+    padding: 15px;
+    width: 40%;
+}
+
+#todo-list li {
+    text-decoration: underline;
+    text-underline-position: under;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+/* #todo-list li span:first-child{
+    position: absolute;
+    left: 0;
+} */
+
+#todo-list button{
+    background: none;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
